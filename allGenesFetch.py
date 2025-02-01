@@ -2,7 +2,7 @@ from Bio import Entrez
 import xml.etree.ElementTree as ET
 
 # Set your email (and API key if available)
-Entrez.email = "your_email@example.com"
+Entrez.email = "trejantwesige19@gmail.com"
 
 def fetch_gene_info(gene_symbol, organism="Homo sapiens"):
     """Fetch gene details from NCBI for a given gene symbol and organism."""
